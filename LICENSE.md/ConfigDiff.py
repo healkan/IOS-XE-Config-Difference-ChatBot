@@ -21,8 +21,7 @@ import requests
 requests.packages.urllib3.disable_warnings()
 
 url = "https://api.ciscospark.com/v1/messages"
-config_diff = '**Config Changed**\n*A minus symbol (-) indicates configuration line exits in running config but not in start
-up config*\n*A plus symbol (+) indicates configuration line exists in startup config but not in running config*\n'
+config_diff = '**Config Changed**\n*A minus symbol (-) indicates configuration line exits in running config but not in startup config*\n*A plus symbol (+) indicates configuration line exists in startup config but not in running config*\n'
 config_diff = config_diff + cli("show archive config diff")
 config_diff = config_diff.replace('!Contextual Config Diffs:','')
 config_diff = config_diff.replace('\n','  \n')
