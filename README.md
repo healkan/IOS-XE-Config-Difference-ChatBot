@@ -4,7 +4,11 @@ Whenever a configuration change is made in the CLI, an EEM (Embedded Event Manag
 
 ![](./ChatBot.png)
 
+
 # Prerequisites
-- IOS-XE device that support on-board guestshell.  In this project a CSR1000v runnning 16.06.02 is used.
+- IOS-XE device that supports on-board guestshell.  In this project a CSR1000v runnning 16.06.02 is used.
 - A WebEx Teams account
 - A Webex Teams Bot.  Please go to https://developer.webex.com/ for instruction on creating a Bot.
+
+# IOS-XE Configuration
+The key configuration is the [EEM script](./eem.cfg)
