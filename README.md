@@ -23,5 +23,7 @@ and activate the Python script in the guestshell:
 
 # Python Script
 The [python script](./ConfigDiff.py) imports the following Python modules:
+
    **from cli import \***  This module allows Python to ru IOS-XE commands
+   
    **import requests**     This allows REST API so the script can send POST request to WebEx Teams
