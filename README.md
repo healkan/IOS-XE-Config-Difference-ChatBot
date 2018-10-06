@@ -15,8 +15,12 @@ The key configuration is the [EEM script](./EEM.cfg)
 
 Whenever a CLI config change is made, a syslog message "%SYS-5-CONFIG_I: Configured from" will be generated.  The EEM script will look for this syslog pattern:
 
-**event syslog pattern "%SYS-5-CONFIG_I: Configured from"**
+   **event syslog pattern "%SYS-5-CONFIG_I: Configured from"**
 
 and activate the Python script in the guestshell:
 
- **action 1.0 cli command "guestshell run python /bootflash/ConfigDiff.py"**
+   **action 1.0 cli command "guestshell run python /bootflash/ConfigDiff.py"**
+
+# Python Script
+The [python script](./ConfigDiff.py) imports the following Python modules:
+   
