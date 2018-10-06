@@ -11,4 +11,4 @@ Whenever a configuration change is made in the CLI, an EEM (Embedded Event Manag
 - A Webex Teams Bot.  Please go to https://developer.webex.com/ for instruction on creating a Bot.
 
 # IOS-XE Configuration
-The key configuration is the [EEM script](./eem.cfg)
+The key configuration is the [EEM script](./EEM.cfg)
